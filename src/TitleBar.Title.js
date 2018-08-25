@@ -107,7 +107,7 @@ class Title extends Component {
     return (
         <View
             onLayout={(e) => this._onLayout(e)}
-            style={[styles.container, this.props.TitleBarStyle]}>
+            style={[styles.container, this.props.titleBarStyle]}>
           {this._renderTitle()}
           {this._renderBorder()}
         </View>

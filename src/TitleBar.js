@@ -57,6 +57,7 @@ class TitleBar extends Component {
             onLayout={this.props.onLayout}
         >
             <Title
+                titleBarStyle={this.props.titleBarStyle}
                 ref={TITLE_REF}
                 backgroundColor={this.props.backgroundColor}
                 renderTitle = {this.props.renderTitle}

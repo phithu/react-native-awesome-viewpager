@@ -1,5 +1,5 @@
 {
-  "name": "react-native-awesome-viewpager",
+  "name": "@npt/react-native-awesome-viewpager",
   "version": "1.0.9",
   "description": "awesome react native swiper",
   "main": "index.js",
